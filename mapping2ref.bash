@@ -12,7 +12,7 @@
 
 WD="/$HOME/$directory"
 REF="${WD}/data/reference/"
-RES="${WD2}/results"
+RES="${WD}/results"
 READS="${WD}/data/reads"
 r1="${READS}/forward_paired.fq"
 r2="${READS}/reverse_paired.fq"
