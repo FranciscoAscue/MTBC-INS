@@ -14,8 +14,13 @@ SPAdes
 
 Para descargar usar el comando
 
-```git clone ```
-```cd/scriptsgenome```
+Descargar:
+```git clone https://github.com/FranciscoAscue/scriptsgenome.git```
+
+Modifique los permisos: 
+
+```cd /scriptsgenome```
+
 ```chmod 777 *.bash```
 
 
