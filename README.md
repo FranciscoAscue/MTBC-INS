@@ -3,21 +3,19 @@
 Este repositorio tiene scripts relacionados a el ensamblaje de genomas
 Para que puedan ser ejecutados se deben instalar los siguientes progrmas:
 
-FastQC
+FastQC https://github.com/s-andrews/FastQC 
 
-Trimmomatic
+Trimmomatic http://www.usadellab.org/cms/index.php?page=trimmomatic
 
-jellyfish
+jellyfish https://github.com/gmarcais/Jellyfish
 
-sratools(NCBI)
+Entrez(NCBI) https://dataguide.nlm.nih.gov/edirect/install.html
 
-Entrez(NCBI)
+bowtie2 https://github.com/BenLangmead/bowtie2
 
-bowtie2
+samtools https://github.com/samtools/samtools
 
-samtools
-
-SPAdes
+SPAdes https://github.com/ablab/spades
 
 Para descargar usar el comando
 
