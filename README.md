@@ -23,7 +23,7 @@ Para descargar, usar el comando:
 
 Modifique los permisos: 
 
-```cd /scriptsgenome```
+```cd scriptsgenome/```
 
 ```chmod 777 *.bash```
 
