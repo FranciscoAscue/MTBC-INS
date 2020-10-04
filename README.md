@@ -1,6 +1,6 @@
 # README
 
-Este repositorio tiene scripts relacionados a el ensamblaje de genomas.
+Este repositorio tiene scripts relacionados al ensamblaje de genomas.
 Para usar los siguientes scripts se deben instalar los programas:
 
 FastQC 		https://github.com/s-andrews/FastQC 
