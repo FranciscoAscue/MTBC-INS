@@ -1,7 +1,7 @@
 # README
 
-Este repositorio tiene scripts relacionados a el ensamblaje de genomas
-Para que puedan ser ejecutados se deben instalar los siguientes progrmas:
+Este repositorio tiene scripts relacionados a el ensamblaje de genomas.
+Para usar los siguientes scripts se deben instalar los programas:
 
 FastQC 		https://github.com/s-andrews/FastQC 
 
@@ -17,9 +17,7 @@ Samtools 	https://github.com/samtools/samtools
 
 SPAdes 		https://github.com/ablab/spades
 
-Para descargar usar el comando
-
-Descargar:
+Para descargar, usar el comando:
 
 ```git clone https://github.com/FranciscoAscue/scriptsgenome.git```
 
