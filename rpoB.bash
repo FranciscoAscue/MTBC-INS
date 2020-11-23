@@ -21,6 +21,7 @@ for i in $(cat $GM/codigos.txt);do
 	gffread -w $GM/transcrip.fa -g $GM/${i}.fna $GM/${i}.gff
 	samtools faidx $GM/transcrip.fa
 	samtools faidx $GM/transcrip.fa ${lis} >>${RES}/multi_rpoB.fasta
+	sed -e "s/${lis}/${i}/g" $RES/multi_rpoB.fasta
 	rm $GM/*.fai $GM/transcrip.fa 
 done
 
