@@ -16,7 +16,7 @@ fastaFromBed -fi NC_000962.3.fasta -bed <(awk '$3=="mobile_genetic_element"' NC_
 
 fgrep "IS6110" NC_000962.3.gff3 | fgrep -v "repeat_region" | fgrep -v "sequence_feature" | cut -f 4,5
 
-## search positions and match with names obtaein in NC_000962.3_mobile.fasta 
+## search positions and match with names obtaein in NC_000962.3_mobile.fasta
 
 fgrep "IS6110" NC_000962.3.gff3 | fgrep -v "repeat_region" | fgrep -v "sequence_feature" | awk '{print $4-1"-"$5}'
 
@@ -47,4 +47,15 @@ do
 done
 
 
-### 
+### METODO CON SAMTOOLS
+
+#### Buscar los IS6110 en GFF3
+
+fgrep "IS6110" NC_000962.3.gff3 | fgrep -v "repeat_region" | fgrep -v "sequence_feature" | awk '{print $4-1"-"$5}'
+
+
+#### genomas ensamblados con genoma de referencia
+
+samtools faidx genoma_consenso.fasta
+samtools faidx genoma_consenso.fasta "NC00XXXX:14000-30000" > is6110_codigo.fasta
+
